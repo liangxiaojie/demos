@@ -27,5 +27,9 @@
     "type": "git",
     "url": "https://github.com/liangxiaojie/react-demo"
   },
+  "bugs": {
+    "url": "https://github.com/liangxiaojie/react-demo/issues"
+  },
+  "homepage": "https://github.com/liangxiaojie/react-demo",
   "license": "MIT"
 }
