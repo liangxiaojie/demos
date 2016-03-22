@@ -25,7 +25,9 @@ var config = {
       loader: 'style!css'
     }]
   },
-  plugins: [new htmlWebpackPlugin()]
+  plugins: [new htmlWebpackPlugin({
+    template:'app/index.html'
+  })]
 };
 
 module.exports = config;
