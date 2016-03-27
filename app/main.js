@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './component/helloWorld.jsx';
+import DemoList from './component/DemoList.jsx';
 
 main();
 
 function main() {
-  ReactDOM.render(<Hello />, document.getElementById('app'));
+  ReactDOM.render(< DemoList />, document.getElementById('app'));
 };
