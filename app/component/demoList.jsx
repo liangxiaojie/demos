@@ -6,20 +6,21 @@ export default class DemoList extends React.Component {
   constructor () {
     super();
     this.state = {
-      currentTab: 'helloWorld'
+      currentTab: Hello
     };
   }
   tabChange (tabName) {
     this.setState({currentTab: tabName});
   };
   render () {
+    const CurrentTab = this.state.currentTab;
     return (
       <div>
         <ul>
-          <li onClick={this.tabChange.bind(this, 'helloWorld')}>helloWorld</li>
-          <li onClick={this.tabChange.bind(this, 'helloWorld1')}>helloWorld1</li>
+          <li onClick={this.tabChange.bind(this, Hello)}>helloWorld</li>
+          <li onClick={this.tabChange.bind(this, Hello1)}>helloWorld1</li>
         </ul>
-        <div>{this.state.currentTab}</div>
+        <CurrentTab />
       </div>
     );
   };
