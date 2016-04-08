@@ -3,8 +3,8 @@ import Hello from './helloWorld.jsx';
 import Hello1 from './helloWorld1.jsx';
 
 export default class DemoList extends React.Component {
-  constructor () {
-    super();
+  constructor (props) {
+    super(props);
     this.state = {
       currentTab: Hello
     };
